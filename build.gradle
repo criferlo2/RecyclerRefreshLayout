@@ -2,7 +2,8 @@
 
 buildscript {
     repositories {
-        jcenter()
+        google() // Asegura que este esté presente
+        mavenCentral() // Alternativamente, usa mavenCentral()
     }
     dependencies {
         classpath 'com.android.tools.build:gradle:4.1.3'
