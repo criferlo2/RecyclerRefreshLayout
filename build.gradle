@@ -2,7 +2,7 @@
 
 buildscript {
     repositories {
-        mavenCentral() // Alternativamente, usa mavenCentral()
+        google() // Alternativamente, usa mavenCentral()
     }
     dependencies {
         classpath 'com.android.tools.build:gradle:4.1.3'
