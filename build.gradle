@@ -2,7 +2,6 @@
 
 buildscript {
     repositories {
-        google() // Asegura que este esté presente
         mavenCentral() // Alternativamente, usa mavenCentral()
     }
     dependencies {
